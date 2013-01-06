@@ -50,7 +50,7 @@ rm -rf %{buildroot}
 %{inst_dir}
 
 %changelog
-* Mon Jul 02 2012 Chris Smart <chris@kororaa.org>- 2.1.2-1
+* Sat Sep 15 2012 Chris Smart <chris@kororaa.org>- 2.1.2-1
 - Update to upstream 2.1.2 release
 
 * Mon Jul 02 2012 Chris Smart <chris@kororaa.org>- 2.1-1

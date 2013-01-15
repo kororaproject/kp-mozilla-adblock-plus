@@ -5,7 +5,7 @@
 %global inst_dir %{moz_extensions}/%{firefox_app_id}/%{src_ext_id}
 
 Name:           mozilla-adblock-plus
-Version:        2.1.2
+Version:        2.2.1
 Release:        1%{?dist}
 Summary:        Adblocking extension for Mozilla Firefox
 
@@ -50,6 +50,9 @@ rm -rf %{buildroot}
 %{inst_dir}
 
 %changelog
+* Tue Jan 15 2013 Chris Smart <chris@kororaa.org>- 2.2.1-1
+- Update to upstream 2.2.1 release
+
 * Sat Sep 15 2012 Chris Smart <chris@kororaa.org>- 2.1.2-1
 - Update to upstream 2.1.2 release
 

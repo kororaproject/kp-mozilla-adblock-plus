@@ -5,7 +5,7 @@
 %global inst_dir %{moz_extensions}/%{firefox_app_id}/%{src_ext_id}
 
 Name:           mozilla-adblock-plus
-Version:        2.6.6
+Version:        2.6.7
 Release:        1%{?dist}
 Summary:        Adblocking extension for Mozilla Firefox
 
@@ -51,6 +51,9 @@ rm -rf %{buildroot}
 %{inst_dir}
 
 %changelog
+* Mon Feb 9 2015 Chris Smart <csmart@kororaproject.org>- 2.6.7-1
+- Update to upstream 2.6.7 release
+
 * Fri Dec 19 2014 Ian Firns <firnsy@kororaproject.org>- 2.6.6-1
 - Update to upstream 2.6.6 release
 
